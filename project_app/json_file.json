@@ -1,0 +1,1 @@
+{"Gender": {"Male": 0, "Female": 1}, "Vehicle_Age": {"1-2 Year": 0, "< 1 Year": 1, "> 2 Years": 2}, "Vehicle_Damage": {"Yes": 1, "No": 0}, "column": ["Gender", "Age", "Driving_License", "Region_Code", "Previously_Insured", "Vehicle_Age", "Vehicle_Damage", "Annual_Premium", "Policy_Sales_Channel", "Vintage"]}
