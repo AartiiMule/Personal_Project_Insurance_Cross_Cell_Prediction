@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to test lab</title>
+</head>
+<body style="background-image: url('https://www.goodreturns.in/img/2015/07/14-1436856564-insuranceauto.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;">
+    <b style="font-size: 30px;"> 
+    <h1 align="center">Welcome To Insurance Cross Cell Prediction System</h1> 
+    <h6 align="center">
+    <form method="GET" action ="/Predict_Response">
+
+            <label>Gender:</label>
+            <select name = "Gender">
+                <option value = "Male">Male</option>
+                <option value = "Female">Female</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Age:</label>
+            <input type = "text" name = "Age">
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>Driving_License:</label>
+            <select name = "Driving_License">
+                <option value = "1">1</option>
+                <option value = "0">0</option>
+            </select>
+
+
+
+            <br>
+            <br>
+
+            <label>Region_Code:</label>
+            <input type = "text" name="Region_Code">
+            </select>
+
+            <br>
+            <br>
+
+            <label>Previously_Insured:</label>
+            <select name = "Previously_Insured">
+                <option value = "1">1</option>
+                <option value = "0">0</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Vehicle_Age:</label>
+            <select name = "Vehicle_Age">
+                <option value = "1-2 Year">1-2 Year</option>
+                <option value = "< 1 Year">< 1 Year</option>
+                <option value = "> 2 Years">> 2 Years</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Vehicle_Damage:</label>
+            <select name = "Vehicle_Damage">
+                <option value = "Yes">Yes</option>
+                <option value = "No">No</option>
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>Annual_Premium:</label>
+            <input type = "text" name="Annual_Premium">
+            </select>
+
+            <br>
+            <br>
+
+            <label>Policy_Sales_Channel:</label>
+            <input type = "text" name="Policy_Sales_Channel">
+            </select>
+
+            <br>
+            <br>
+
+            <label>Vintage:</label>
+            <input type = "text" name="Vintage">
+            </select>
+
+            <br>
+            <br>
+
+
+            
+            <br>
+            <input type = "submit" value = "SUBMIT">
+
+            <br>
+            <br>
+            <br>
+            <p><b><h3>{{prediction}}</h3></p>
+    </h6>
+    </b>
+        </form>
+
+
+</body>
+
+
+</html>
